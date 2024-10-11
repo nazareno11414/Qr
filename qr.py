@@ -5,7 +5,7 @@ import qrcode
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
 
 # Agregar datos al código QR
-qr.add_data('https://www.youtube.com/watch?v=Ubxb1u3izeM&ab_channel=chayanneVEVO')
+qr.add_data('Añadir texto/enlace')
 qr.make(fit=True)
 
 # Crear una imagen del código QR
